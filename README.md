@@ -52,7 +52,7 @@ FullCalendar integration with backend event management.
 
 ## Quick Start
 
-### 1. Install dependencies
+### 1. Install dependencies (Ensure that you are in the demo-app directory, not the demo_nano_react directory)
 ```bash
 npm install
 ```
