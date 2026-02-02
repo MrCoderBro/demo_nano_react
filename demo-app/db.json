@@ -1,0 +1,155 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "password": "$2b$10$soe/QUAKVXO6/YgYS4vtR.iGTyKkDA7mIRdp8o6LJU20VqhTzu.MS",
+      "role": "Administrator",
+      "status": "active",
+      "createdBy": "System"
+    },
+    {
+      "username": "test",
+      "password": "$2b$10$AIctSzvA08cnf8yaa.JYu.f5oMicyl2aS/lh9O4.dvVNQHGvs03w6",
+      "role": "User",
+      "status": "active",
+      "createdBy": "Public"
+    }
+  ],
+  "roles": [
+    "Administrator",
+    "User"
+  ],
+  "events": [
+    {
+      "id": "1769994858877",
+      "title": "yes",
+      "start": "2026-02-06",
+      "end": "2026-02-06",
+      "description": "Yes",
+      "allDay": true,
+      "userId": "admin",
+      "createdAt": "2026-02-02T01:14:18.877Z",
+      "updatedAt": "2026-02-02T01:14:26.593Z"
+    },
+    {
+      "id": "1769994910988",
+      "title": "test",
+      "start": "2026-02-07",
+      "end": "2026-02-07",
+      "description": "test",
+      "allDay": true,
+      "userId": "test",
+      "createdAt": "2026-02-02T01:15:10.988Z"
+    }
+  ],
+  "activityLog": [
+    {
+      "timestamp": "2026-02-02T01:13:19.279Z",
+      "user": "admin",
+      "action": "Login",
+      "details": "User logged in successfully"
+    },
+    {
+      "timestamp": "2026-02-02T01:14:18.880Z",
+      "user": "admin",
+      "action": "Created event",
+      "details": "yes"
+    },
+    {
+      "timestamp": "2026-02-02T01:14:23.893Z",
+      "user": "admin",
+      "action": "Updated event",
+      "details": "yes"
+    },
+    {
+      "timestamp": "2026-02-02T01:14:26.596Z",
+      "user": "admin",
+      "action": "Updated event",
+      "details": "yes"
+    },
+    {
+      "timestamp": "2026-02-02T01:14:34.546Z",
+      "user": "admin",
+      "action": "Logout",
+      "details": "User logged out"
+    },
+    {
+      "timestamp": "2026-02-02T01:14:42.841Z",
+      "user": "Public",
+      "action": "Account requested",
+      "details": "Username: test, Role: User"
+    },
+    {
+      "timestamp": "2026-02-02T01:14:49.710Z",
+      "user": "admin",
+      "action": "Login",
+      "details": "User logged in successfully"
+    },
+    {
+      "timestamp": "2026-02-02T01:14:53.790Z",
+      "user": "admin",
+      "action": "Approved user",
+      "details": "Username: test"
+    },
+    {
+      "timestamp": "2026-02-02T01:14:59.689Z",
+      "user": "admin",
+      "action": "Logout",
+      "details": "User logged out"
+    },
+    {
+      "timestamp": "2026-02-02T01:15:04.379Z",
+      "user": "test",
+      "action": "Login",
+      "details": "User logged in successfully"
+    },
+    {
+      "timestamp": "2026-02-02T01:15:10.990Z",
+      "user": "test",
+      "action": "Created event",
+      "details": "test"
+    },
+    {
+      "timestamp": "2026-02-02T01:15:13.337Z",
+      "user": "test",
+      "action": "Logout",
+      "details": "User logged out"
+    },
+    {
+      "timestamp": "2026-02-02T01:15:18.986Z",
+      "user": "admin",
+      "action": "Login",
+      "details": "User logged in successfully"
+    },
+    {
+      "timestamp": "2026-02-02T01:25:49.300Z",
+      "user": "admin",
+      "action": "Logout",
+      "details": "User logged out"
+    },
+    {
+      "timestamp": "2026-02-02T01:26:10.349Z",
+      "user": "admin",
+      "action": "Login",
+      "details": "User logged in successfully"
+    },
+    {
+      "timestamp": "2026-02-02T01:26:30.458Z",
+      "user": "admin",
+      "action": "Logout",
+      "details": "User logged out"
+    },
+    {
+      "timestamp": "2026-02-02T01:39:09.603Z",
+      "user": "admin",
+      "action": "Login",
+      "details": "User logged in successfully"
+    },
+    {
+      "timestamp": "2026-02-02T01:39:16.673Z",
+      "user": "admin",
+      "action": "Logout",
+      "details": "User logged out"
+    }
+  ]
+}
